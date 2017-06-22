@@ -1,0 +1,14 @@
+{
+  "name": "riot-input-filter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A library to wrap around nice libraries to do range filtering",
+  "repository": "git@github.com:MartinMuzatko/riot-input-filter.git",
+  "author": "Martin Muzatko <martin@happy-css.com>",
+  "license": "MIT",
+  "dependencies": {
+    "extend": "^3.0.1",
+    "flatpickr": "^3.0.5-1",
+    "nouislider": "^10.0.0"
+  }
+}
