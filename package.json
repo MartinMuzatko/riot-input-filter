@@ -1,14 +1,22 @@
 {
   "name": "riot-input-filter",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "module": "src/index.js",
   "description": "A library to wrap around nice libraries to do range filtering",
   "repository": "git@github.com:MartinMuzatko/riot-input-filter.git",
   "author": "Martin Muzatko <martin@happy-css.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-es2015-riot": "^1.1.0",
     "extend": "^3.0.1",
     "flatpickr": "^3.0.5-1",
-    "nouislider": "^10.0.0"
+    "nouislider": "^10.0.0",
+    "riot": "^3.6.0",
+    "riotjs-loader": "^4.0.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
   }
 }
